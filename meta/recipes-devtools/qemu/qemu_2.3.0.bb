@@ -24,6 +24,8 @@ SRC_URI_prepend = "http://wiki.qemu-project.org/download/${BP}.tar.bz2"
 SRC_URI[md5sum] = "2fab3ea4460de9b57192e5b8b311f221"
 SRC_URI[sha256sum] = "b6bab7f763d5be73e7cb5ee7d4c8365b7a8df2972c52fa5ded18893bd8281588"
 
+DEFAULT_PREFERENCE = "-1"
+
 COMPATIBLE_HOST_class-target_mips64 = "null"
 
 do_install_append() {
